@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<search string="Search Sales Order">
+    <group expand="0" string="Group By">
+        <filter string="Salesperson" domain="[]" context="{'group_by':'user_id'}"/>
+        <filter string="Customer" domain="[]" context="{'group_by':'partner_id'}"/>
+        <filter string="Order Month" domain="[]" context="{'group_by':'date_order'}"/>
+        <filter string="Type" domain="[]" />
+    </group>
+</search>
